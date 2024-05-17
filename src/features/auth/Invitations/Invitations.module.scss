@@ -1,0 +1,28 @@
+.input__invite {
+  all: unset;
+  height: 100%;
+  padding: 11px 16px;
+  width: 312px;
+  background-color: #f4f5f4;
+  box-shadow: 0px 6px 10px 0px #3333331a;
+}
+.invite__title {
+  margin-top: 50px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.invite__form {
+  display: flex;
+  column-gap: 5px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.invite__btn {
+  all: unset;
+  background-color: #ffed00;
+  padding: 10px 65px;
+  color: #333333;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 0px 6px 10px 0px #3333331a;
+}
