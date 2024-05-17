@@ -1,0 +1,19 @@
+.invitat__list__col {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 12px;
+  border: 1px solid #e7e7ed;
+  padding: 22px 16px;
+}
+
+.invitat__span {
+  color: red;
+  border: 1px solid red;
+  padding: 3px 12px;
+}
+
+.invitat__span__activated {
+  color: #118632;
+  border: 1px solid #118632;
+  padding: 3px 12px;
+}
