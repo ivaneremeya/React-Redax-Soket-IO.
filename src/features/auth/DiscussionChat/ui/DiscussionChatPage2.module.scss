@@ -1,0 +1,45 @@
+.chat__contantainer {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  text-align: center;
+}
+.chat__checkbox__container {
+  display: flex;
+  margin-top: 10px;
+}
+.chat__contantainer h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: start;
+  margin-top: 54px;
+  margin-bottom: 35px;
+}
+
+.chat__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 380px;
+  overflow-y: auto;
+  margin-bottom: 47px;
+}
+.chat__input__wrapper {
+  display: flex;
+}
+
+.chat__input__wrapper button {
+  all: unset;
+  background-color: #3c64b1;
+  padding: 0 62px;
+  border: 1px solid #3c64b1;
+  border-radius: 0 15px 15px 0;
+
+  height: 45px;
+}
+
+.chat__checkbox__container label {
+  margin-left: 7px;
+  color: #0c0c0c80;
+}

@@ -1,0 +1,47 @@
+.chat__contantainer {
+  width: 60%;
+  padding-right: 74px;
+}
+.chat__descr__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.chat__title__wrapper {
+}
+
+.chat__data {
+  display: flex;
+  justify-content: space-between;
+}
+.chat__data__item__create {
+  display: flex;
+  flex-direction: column;
+}
+.chat__data__item__link {
+  display: flex;
+  flex-direction: column;
+}
+.imageGallery__Wrapper {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.my__image__gallery {
+  width: 100%; /* Ширина галереи равна ширине родительского контейнера */
+}
+
+.my__image {
+  height: 100%; /* Высота изображения равна высоте родительского контейнера */
+  width: 100%; /* Ширина изображения равна ширине родительского контейнера */
+  object-fit: cover; /* Изображение заполняет свой контейнер сохраняя пропорции */
+}
+.chat__wrapper__img {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.chat__wrapper__img p {
+  margin-bottom: 40px;
+}

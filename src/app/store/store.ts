@@ -13,6 +13,10 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import AnnouncementSlice from '@/page/Announcement/model/AnnouncementSlice';
+import DiscussionsSlice from '@/page/discussions/model/DiscussionsSlice';
+import PetitionSlice from '@/page/petition/model/PetitionSlice';
+import AnnouncementChatSlice from '@/page/AnnouncementChatPage/model/AnnouncementChatSlice';
 
 const rootReducer = combineReducers({
   authList: LoginSlice,
@@ -30,6 +34,10 @@ export const store = configureStore({
     persistedReducer,
     AdminFIleList: AdminSlice,
     InvitationList: InvitationSlice,
+    AnnouncementList: AnnouncementSlice,
+    DiscussionsList: DiscussionsSlice,
+    PetitionsList: PetitionSlice,
+    AnnouncementChatItem: AnnouncementChatSlice
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

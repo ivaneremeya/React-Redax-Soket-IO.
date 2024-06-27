@@ -8,8 +8,6 @@ body {
   font-weight: 400; /* Medium жирность для всего текста */
 }
 
-
-
 p {
   margin: 0;
 }
@@ -60,9 +58,8 @@ h4 {
 .container {
   max-width: 1140px;
   position: relative;
-  padding: 0 40px 40px 40px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 input::-webkit-inner-spin-button,

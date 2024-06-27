@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div>
       <Header />
-      <main className='content' style={{ marginTop: '30px' }}>
+      <main className='content'>
         <div className='container'>
           <Outlet />
         </div>

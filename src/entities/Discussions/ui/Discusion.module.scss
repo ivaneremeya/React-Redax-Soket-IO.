@@ -1,0 +1,38 @@
+.discusc__input {
+  all: unset;
+  height: 35px;
+  border: 1px solid #dbe2ea;
+  margin-bottom: 27px;
+}
+.discusc__input2 {
+  //   all: unset;
+  height: 190px;
+  border: 1px solid #dbe2ea;
+  margin-bottom: 27px;
+}
+
+.discusc__container {
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+.discusc__container form {
+  width: 360px;
+}
+.discusc__container form h2 {
+  margin-bottom: 44px;
+  text-align: center;
+}
+.discusc__btn {
+  all: unset;
+  background-color: #ffed00;
+  padding: 14px 0;
+  width: 100%;
+  color: #333333;
+  font-size: 20px;
+  text-align: center;
+}
+
+.select__wrapper {
+  margin-bottom: 24px;
+}

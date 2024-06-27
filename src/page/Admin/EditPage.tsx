@@ -1,6 +1,6 @@
 import React, { ChangeEvent } from 'react';
 import { useForm } from 'react-hook-form';
-import { InputAdmin } from './InputEdit';
+import { InputModalForm } from './InputEdit';
 import styles from './Edit.module.scss';
 import { FetchPatchAdmin } from './api/FetchPatchAdmin';
 import { useAppDispatch, useAppSelector } from '@/app/store/hook';
@@ -48,7 +48,7 @@ export const EditPage = () => {
     }
   };
   return (
-    <div className='container'>
+    <div className={styles.admin__container}>
       <h3 className={styles.admin__title}>Профиль</h3>
       <form className={styles.form__admin} onSubmit={handleSubmit(onSubmit)}>
         <div className={styles.Admin__wrapper__photo}>
@@ -69,14 +69,14 @@ export const EditPage = () => {
         </div>
 
         <div className={styles.admin__input__col_2}>
-          <InputAdmin
+          <InputModalForm
             error={errors.fio}
             regist={register('fio', { required: true, minLength: 4 })}
             placehol={'фамилия'}
             type={'text'}
             styl={styles.input__admin}
           />
-          <InputAdmin
+          <InputModalForm
             error={errors.email}
             regist={register('email', { required: true, minLength: 4 })}
             placehol={'email'}
@@ -84,14 +84,14 @@ export const EditPage = () => {
             styl={styles.input__admin}
           />
           <div className={styles.input__admin__wrapper}>
-            <InputAdmin
+            <InputModalForm
               error={errors.password}
               regist={register('password', { required: true, minLength: 4 })}
               placehol={'Пароль'}
               type={'password'}
               styl={styles.input__admin__password}
             />
-            <InputAdmin
+            <InputModalForm
               error={errors.password}
               regist={register('password', { required: true, minLength: 4 })}
               placehol={'Пароль'}
@@ -101,7 +101,7 @@ export const EditPage = () => {
           </div>
         </div>
         <div className={styles.admin__input__col_2}>
-          <InputAdmin
+          <InputModalForm
             error={errors.institute}
             regist={register('institute', { required: true, minLength: 4 })}
             placehol={'институт'}
@@ -109,7 +109,7 @@ export const EditPage = () => {
             styl={styles.input__admin}
           />
 
-          <InputAdmin
+          <InputModalForm
             error={errors.dorm}
             regist={register('dorm', { required: true, minLength: 1 })}
             placehol={'Общежитие'}
@@ -117,7 +117,7 @@ export const EditPage = () => {
             styl={styles.input__admin}
           />
 
-          <InputAdmin
+          <InputModalForm
             error={errors.numberRoom}
             regist={register('numberRoom', { required: true, minLength: 1 })}
             placehol={'номер комнаты'}

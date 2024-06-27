@@ -12,13 +12,13 @@ export const Header = () => {
         </Link>
 
         <nav className={styles.header__nav}>
-          <Link className={styles.header__nav_link} to='/'>
+          <Link className={styles.header__nav_link} to='/discussions'>
             Главная
           </Link>
-          <Link className={styles.header__nav_link} to='/'>
+          <Link className={styles.header__nav_link} to='/announcement'>
             Объявления
           </Link>
-          <Link className={styles.header__nav_link} to='/'>
+          <Link className={styles.header__nav_link} to='/petition'>
             Стол заявок
           </Link>
           <Link className={styles.header__nav_link} to='/'>

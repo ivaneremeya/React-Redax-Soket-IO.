@@ -1,0 +1,35 @@
+.header__discussion__container {
+  margin-top: 42px;
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__discussion__link {
+  padding: 10px 50px;
+  background-color: #ffed00;
+  box-shadow: 0px 6px 10px 0px #3333331a;
+}
+.header__discussion__catagories {
+  all: unset;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  margin-left: 20px;
+}
+.header__discussion__sort {
+  all: unset;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+.header__discussion__container input {
+  padding: 7px 90px 8px 14px;
+  background-color: #f4f5f4;
+  border: 1px solid #f4f5f4;
+}
+.header__discussion__catagories::before {
+  content: url(../../../app/filter.svg);
+  position: absolute;
+  left: -21px;
+}

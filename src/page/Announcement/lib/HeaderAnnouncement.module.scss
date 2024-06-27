@@ -1,0 +1,26 @@
+.HeaderAnnouncement {
+  display: flex;
+  padding: 18px 0;
+  width: 84%;
+  justify-content: space-between;
+}
+
+.HeaderAnnouncement__btn {
+  color: #373f41;
+  padding: 10px 20px;
+  border: 1px solid #e2e5e6;
+  background-color: initial;
+}
+.Announcement__btn {
+  all: unset;
+  padding: 10px 29px;
+  background-color: #ffed00;
+  color: #333;
+}
+.HeaderAnnouncement__btn__container {
+  display: flex;
+  gap: 20px;
+}
+.HeaderAnnouncement__btn:active {
+  background-color: #a8a9a9;
+}

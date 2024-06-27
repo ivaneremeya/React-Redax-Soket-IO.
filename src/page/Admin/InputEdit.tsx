@@ -9,7 +9,7 @@ interface IProps {
   styl: string;
 }
 
-export const InputAdmin = ({ error, regist, placehol, type, styl }: IProps) => {
+export const InputModalForm = ({ error, regist, placehol, type, styl }: IProps) => {
   return (
     <div className={styles.input__wrapper}>
       <label className={styles.input__wrapper__label} htmlFor={placehol}>

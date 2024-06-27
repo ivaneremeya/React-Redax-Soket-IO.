@@ -1,0 +1,11 @@
+.discussion__container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  text-align: center;
+}
+.discussion__container ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}

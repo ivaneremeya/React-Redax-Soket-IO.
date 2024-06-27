@@ -1,0 +1,53 @@
+.petition__container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 20px;
+
+  &h3 {
+    margin-bottom: 15px;
+  }
+}
+.petition__nav {
+  display: flex;
+  justify-content: end;
+  padding: 20px 0px;
+
+  &__btn {
+    all: unset;
+    background-color: #ffed00;
+    padding: 10px 46px;
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.petition__list__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 34px;
+  background-color: #f4f5f4;
+  border-radius: 15px;
+}
+.petition__container h3 {
+  margin-bottom: 11px;
+  font-size: 18px;
+  font-weight: 600px;
+  line-height: 18px;
+}
+.wrapper__plus__min {
+  display: flex;
+  text-align: center;
+}
+.wrapper__count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__plus__min button {
+  all: unset;
+}
+.wrapper__count span {
+  color: #469b40;
+  font-size: 28px;
+}
